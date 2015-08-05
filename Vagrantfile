@@ -3,7 +3,7 @@
 
 ## Define some app-specific stuff to be used later during provisioning: ##
 app_vars = {
-  # APPNAME: 'MyApplication',
+  APPNAME: 'MyApp',
   DBNAME: 'symfony',
   DBUSER: 'vagrant',
   DBPASSWORD: 'vagrant',

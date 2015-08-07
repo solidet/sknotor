@@ -4,22 +4,22 @@ namespace AppBundle\Tests\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
-class SubCategoryControllerTest extends WebTestCase
+class PostControllerTest extends WebTestCase
 {
-
+    /*
     public function testCompleteScenario()
     {
         // Create a new client to browse the application
         $client = static::createClient();
 
         // Create a new entry in the database
-        $crawler = $client->request('GET', '/sknotor/subcategory/');
-        $this->assertEquals(200, $client->getResponse()->getStatusCode(), "Unexpected HTTP status code for GET /sknotor/subcategory/");
+        $crawler = $client->request('GET', '/sknotor/post/');
+        $this->assertEquals(200, $client->getResponse()->getStatusCode(), "Unexpected HTTP status code for GET /sknotor/post/");
         $crawler = $client->click($crawler->selectLink('Create a new entry')->link());
 
         // Fill in the form and submit it
         $form = $crawler->selectButton('Create')->form(array(
-            'appbundle_subcategory[field_name]'  => 'Test',
+            'appbundle_post[field_name]'  => 'Test',
             // ... other fields to fill
         ));
 
@@ -33,7 +33,7 @@ class SubCategoryControllerTest extends WebTestCase
         $crawler = $client->click($crawler->selectLink('Edit')->link());
 
         $form = $crawler->selectButton('Update')->form(array(
-            'appbundle_subcategory[field_name]'  => 'Foo',
+            'appbundle_post[field_name]'  => 'Foo',
             // ... other fields to fill
         ));
 
@@ -51,5 +51,5 @@ class SubCategoryControllerTest extends WebTestCase
         $this->assertNotRegExp('/Foo/', $client->getResponse()->getContent());
     }
 
-
+    */
 }

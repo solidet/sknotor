@@ -160,10 +160,12 @@ class Category
     /**
      * Get sub_category
      *
-     * @return \Doctrine\Common\Collections\Collection 
+     * @return \Doctrine\Common\Collections\Collection
      */
     public function getSubCategory()
     {
         return $this->sub_category;
     }
+
+
 }
